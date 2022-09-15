@@ -6,7 +6,9 @@
 
 #root{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -21,6 +23,10 @@
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+.post__btns {
+    display: flex;
 }
 
 .post-enter {
@@ -53,4 +59,22 @@
 .page__current{
     border: 2px solid orangered;
     font-weight: bold;
+}
+
+.navbar{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+
+}
+
+.navbar__links{
+    margin:0 auto;
+}
+
+.navbar__links > *{
+    margin-right: 15px;
 }
